@@ -4,6 +4,5 @@ services:
     build:
       context: "./"
       target: "base"
-    command: [ "bash" ]
     volumes:
       - ".:/app"
